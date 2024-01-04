@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Gochi+Hand&family=Heebo:wght@300;400&family=Mochiy+Pop+One&family=Poppins:wght@500&display=swap');
+.sidebar-label-container {
+  font-family: 'Heebo', sans-serif;
+  display: block;
+  position: relative;
+  padding-left: 40px;
+  margin-bottom: 7px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  
+}
+.sidebar-label-container input {
+  cursor: pointer;
+  position: absolute;
+  opacity: 0;
+}
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+.sidebar-label-container:hover
+  input
+  ~ .checkmark {
+  background-color: #ccc;
+}
+.sidebar-label-container
+  input:checked
+  ~ .checkmark {
+  background-color: #d24d57;
+}
+.checkmark::after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.sidebar-label-container
+  input:checked
+  ~ .checkmark::after {
+  display: block;
+}
+.sidebar-label-container .checkmark::after {
+  top: 4px;
+  left: 4px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: white;
+}

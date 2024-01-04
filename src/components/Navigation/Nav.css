@@ -1,0 +1,88 @@
+@import "https://fonts.googleapis.com/css?family=Raleway";
+.navbar {
+  color: #fff;
+  top: 0;
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 10;
+  -webkit-box-shadow: 0 4px 12px 0
+    rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
+  background-color: #fff;
+
+}
+.navbar-brand {
+  font-weight: 700;
+  font-size: 20px;
+  font-family: "Mochiy Pop One", sans-serif;
+  color: #d24d57 !important;
+}
+.logo {
+  width: 40px;
+  font-size: 50px;
+  color: #282c3f;
+}
+.ulPages ul li {
+  list-style-type: none;
+  font-size: 20px;
+  font-weight: 500;
+}
+.ulPages ul {
+  gap: 15px;
+  color: aliceblue;
+  cursor: pointer;
+}
+.ulPages {
+  align-items: center;
+}
+div.pullUp a:before {
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  left: 0px;
+  bottom: 0px;
+  content: "";
+  background: #d24d57;
+  opacity: 0.3;
+  transition: all 0.3s;
+}
+
+div.pullUp a:hover:before {
+  height: 100%;
+}
+div.container {
+  font-family: Raleway;
+  margin: 0 auto;
+  text-align: center;
+  width: 55%;
+}
+
+div.container a {
+  color: #282c3f;
+  text-decoration: none;
+  font: 12px Raleway;
+  margin: 0px 10px;
+  padding: 10px 10px;
+  position: relative;
+  z-index: 0;
+  cursor: pointer;
+  font-weight: 400;
+}
+.shop-icon a {
+  color: #282c3f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  text-decoration: none;
+}
+.shop-icon a span {
+  margin-top: -0.3rem;
+  font-size: 12px;
+  font-weight: 600;
+}
+.nav-input {
+  width: 18rem;
+  font-size: 10px;
+}

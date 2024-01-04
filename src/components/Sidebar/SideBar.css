@@ -1,0 +1,12 @@
+.sidebar{
+    width: 15%;
+    position: fixed;
+    display:  flex;
+    flex-direction: column;
+    height: 100%;
+    border-right: 1px solid  #d0d2d9;
+    z-index: 3;
+    align-items: center;
+    /* background-color: #d24d57; */
+
+}

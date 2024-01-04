@@ -1,0 +1,65 @@
+.colors-container {
+  overflow: hidden;
+  float: right;
+  position: relative;
+  transition: 0.7s ease;
+  border-left: 10px solid #d24d57;
+  width: 2px;
+  height: 250px;
+  box-shadow: 5px 1px 1px 2px #2d2d2d;
+  position: sticky;
+  top: 30%;
+}
+.red {
+  cursor: pointer;
+  width: 100px;
+  height: 50px;
+  background-color: red;
+  
+}
+.white {
+  cursor: pointer;
+  width: 100px;
+  height: 50px;
+  background-color: white;
+}
+.green {
+  cursor: pointer;
+  width: 100px;
+  height: 50px;
+  background-color: green;
+}
+.black {
+  cursor: pointer;
+  width: 100px;
+  height: 50px;
+  background-color: black;
+}
+.colors-container.colors-container:hover {
+  width: 100px;
+}
+.mixRed{
+  width: 20px;
+  height: 50px;
+  background-color: red;
+}
+.mixWhite{
+  width: 20px;
+  height: 50px;
+  background-color: white;
+}
+.mixGreen{
+  width: 20px;
+  height: 50px;
+  background-color: green;
+}
+.mixBlack{
+  width: 20px;
+  height: 50px;
+  background-color: black;
+}
+/* .mixture{
+  background-image: linear-gradient(red,green,white,black);
+  width: 100px;
+  height: 50px;
+} */
